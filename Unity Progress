@@ -1,0 +1,30 @@
+# Unity Progress
+
+## Week 1 Unity: 12/11/23 - 17/11/23
+
+- Created a 2D Universal Render Pipeline (URP) project titled 'Flappy Ghost'.
+
+- Added 'Sprites' folder to Assets.
+- Sliced temporary Sprites.
+
+- Added temporary Background Sprite.
+
+- Changed 'Main Camera' size to fit the 'Background' (1.275).
+
+- Added temporary 'Ghost' Sprite.
+- Added animation component to temporary Ghost Sprite: 3 separate temporary Ghost Sprites keyframed.
+- Rigidbody 2D component added to temporary Ghost Sprite, with Gravity Scale changed to 0.65. It allows GameObjects to interact with physics, and it controls the rotation and position.
+- Capsule Collider 2D component added to temporary Ghost Sprite, with direction at horizontal. It handles physical collisions for an object.
+
+- Added temporary Ground Sprite.
+- Changed position of temporary Ground Sprite to (0.82, -1, 0).
+- Changed Sprite Renderer of temporary Ground Sprite to Tiled draw mode and changed the size to 3.64 Width 0.56 Height. 
+- Added Box Collider 2D component to temporary Ground Sprite, useful for representing objects with simple rectangular or cubic shapes. Added the Auto Tiling option which enables automatic updates to the shape. 
+
+## Week 2 Unity: 1/9/24 - 1/12/24
+
+- Added 'Scripts' folder to Assets
+- Created C# Script named 'FlyBehaviour'
+- Added 'FlyBehaviour' script to 'Ghost' sprite as a component
+
+- Installed an Input System through the Package Manager, which can be used as a more extensible and customizable alternative to Unity's classic input system in UnityEngine.Input.
